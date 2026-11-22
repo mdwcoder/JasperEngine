@@ -10347,7 +10347,7 @@ _SOKOL_PRIVATE void _sg_gl_init_caps_gles3(void) {
                 has_bptc = true;
             } else if (strstr(ext, "_compressed_texture_etc")) {
                 has_etc2 = true;
-            } else if (strstr(ext, "_compressed_texture_astc")) {
+            } else if (strstr(ext, "_compressed_texture_astc") || strstr(ext, "_texture_compression_astc")) {
                 has_astc = true;
             } else if (strstr(ext, "_color_buffer_float")) {
                 has_colorbuffer_float = true;
