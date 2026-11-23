@@ -9,6 +9,7 @@
 #include "math/Vector3.h"
 
 #include <string>
+#include <cstdint>
 #include <vector>
 
 namespace jasperengine{
